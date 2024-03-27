@@ -1,0 +1,20 @@
+.lista-colorida{
+    border-radius: 8px;
+    width: 50%;
+    li{
+        color: #fff;
+        padding: 10px 20px;
+        &:nth-child(1){
+            background-color: blue;
+        }
+        &:nth-child(2){
+            background-color: red;
+        }
+        &:nth-child(3){
+            background-color: green;
+        }
+        &:nth-child(4){
+            background-color: orange;
+        }
+    }
+}
